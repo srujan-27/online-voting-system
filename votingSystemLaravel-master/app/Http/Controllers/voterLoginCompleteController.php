@@ -37,13 +37,12 @@ class voterLoginCompleteController extends Controller
 
             if(Hash::check($userpass,$pass)){
 
-                $timer = Timer::first();
-                $time = $timer->launch_date;
+                
 
 
 
                 $request->session()->put('voterid', $idcheck);
-                return view('panel.voterPanel',compact('time'));
+                return view('panel.voterPanel');
              }
              else{
                 return redirect('/voterLogin')

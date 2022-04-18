@@ -95,12 +95,7 @@
             </div>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="charts.html">
-            <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span>
-          </a>
-        </li>
+      
        
       </ul>
       <!-- Sidebar -->
@@ -113,53 +108,7 @@
             </button>
             <ul class="navbar-nav ml-auto">
             
-              <li class="nav-item dropdown no-arrow mx-1">
-                <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <i class="fas fa-bell fa-fw"></i>
-                  <span class="badge badge-danger badge-counter">3+</span>
-                </a>
-                <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                  aria-labelledby="alertsDropdown">
-                  <h6 class="dropdown-header">
-                    Alerts Center
-                  </h6>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-primary">
-                        <i class="fas fa-file-alt text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">April 04, 2022</div>
-                      <span class="font-weight-bold">An update coming!</span>
-                    </div>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-success">
-                        <i class="fas fa-donate text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">April 05, 2022</div>
-                      The Sun team VS the Moon team election will be starting
-                    </div>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-warning">
-                        <i class="fas fa-exclamation-triangle text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">April 07, 2022</div>
-                      The voting result will be published
-                    </div>
-                  </a>
-                  
-                </div>
-              </li>
+              
              
               
               <div class="topbar-divider d-none d-sm-block"></div>
@@ -236,7 +185,7 @@
                                     </span>
                 
                                     <div class="wrap-input100 " data-validate = "Valid email is: a@b.c">
-                                        <input class="input100" type="text" name="email" disabled>
+                                        <input class="input100" type="text" name="email" >
                                         <span class="focus-input100" data-placeholder="{{ $title }}"></span>
                                     </div>
 
@@ -344,9 +293,7 @@
         <footer class="sticky-footer bg-white">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
-                <b><a href="#" target="_blank">DIU Thesis Members</a></b>
-              </span>
+              
             </div>
           </div>
   
